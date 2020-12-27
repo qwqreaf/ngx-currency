@@ -109,7 +109,7 @@ export class InputHandler {
                 }
                 break;
         }
-
+        alert(this.inputService.value);
         this.onModelChange(this.inputService.value);
     }
 
